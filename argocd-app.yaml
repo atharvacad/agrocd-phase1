@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: <your-git-repo-url>
+    repoURL: https://github.com/atharvacad/agrocd-phase1.git
     targetRevision: HEAD
     path: nginx-app
   syncPolicy:
